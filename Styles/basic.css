@@ -9,3 +9,15 @@
 #messageInput {
     width: 100%;
 }
+
+#signInPanel {
+    background-color:rgb(197, 197, 197);
+    position:absolute;
+    height:150px;
+    width:40%;
+    top:30%;
+    left:30%;
+    border-style:solid;
+    padding:10px;
+    text-align:center;
+}
