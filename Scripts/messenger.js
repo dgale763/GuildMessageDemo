@@ -3,10 +3,9 @@ var pubnub;
 
 function signIn(){
     currentUser = document.getElementById("userInput").value;
-    var jsonData = JSON.parse(pubnubkeys);
     pubnub = new PubNub({
-        publishKey: jsonData.publishKey,
-        subscribeKey: jsonData.subscribeKey,
+        publishKey: pubnubkeys.publishKey,
+        subscribeKey: pubnubkeys.subscribeKey,
         uuid: currentUser
     });
     pubnub.addListener({
