@@ -4,8 +4,8 @@ var pubnub;
 function signIn(){
     currentUser = document.getElementById("userInput").value;
     pubnub = new PubNub({
-        publishKey: pubnubkeys.publishKey,
-        subscribeKey: pubnubkeys.subscribeKey,
+        publishKey: myPublishKey,
+        subscribeKey: mySubscribeKey,
         uuid: currentUser
     });
     pubnub.addListener({
