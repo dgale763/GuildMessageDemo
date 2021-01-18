@@ -1,0 +1,4 @@
+var pubnubkeys = {
+        publishKey:"",
+        subscribeKey:""
+}
