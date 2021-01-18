@@ -1,0 +1,11 @@
+#mainBody {
+    border-style: solid;
+}
+
+#messageComposer {
+    border-style: solid;
+}
+
+#messageInput {
+    width: 100%;
+}
