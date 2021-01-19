@@ -1,9 +1,6 @@
-#mainBody {
-    border-style: solid;
-}
-
 #messageComposer {
     border-style: solid;
+    background-color:aquamarine;
 }
 
 #messageInput {
@@ -20,4 +17,11 @@
     border-style:solid;
     padding:10px;
     text-align:center;
+}
+
+#pageTitle {
+    background-color:aquamarine;
+}
+.list-group-item {
+    background-color:rgba(127, 255, 212, 0.267);
 }
